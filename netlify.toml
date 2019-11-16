@@ -6,6 +6,6 @@
   YARN_VERSION = "1.9.4"
   YARN_FLAGS = "--no-ignore-optional"
 [[headers]]
-  for = "/admin*"
+  for = "/*"
   [headers.values]
     Basic-Auth = "someuser:password"
